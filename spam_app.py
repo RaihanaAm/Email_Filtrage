@@ -25,7 +25,7 @@ def load_model():
     except:
         try:
             # Sinon charger modèle et vectoriseur séparément
-            model = joblib.load('model.pkl')
+            model = joblib.load('svm_model.pkl')
             vectorizer = joblib.load('vectorizer.pkl')
             return (model, vectorizer), "separate"
         except Exception as e:
