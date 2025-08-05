@@ -1,1 +1,1 @@
-svm_model.pkl
+echo "svm_model.pkl" >> .gitignore
