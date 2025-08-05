@@ -1,2 +1,3 @@
 echo "svm_model.pkl" >> .gitignore
 *svm_model.pkl
+svm_model.pkl
